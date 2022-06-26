@@ -1,0 +1,104 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #8eafe6;
+    color: #5bf214b5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body {
+    background-color: #18acb7;
+    margin: 50px 500px;
+    height: fit-content;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 10px 10px;
+    width: 400px;
+}
+
+#todo-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+#todo-subtitle {
+    margin-bottom: 30px;
+    font-size: 17px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+#todo-input {
+    height: 40px;
+    width: 300px;
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+    outline: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#todo-input:hover {
+    height: 40px;
+    width: 300px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    background-color: #96e6f4;
+}
+
+#todo-input:focus {
+    background-color: rgb(230, 227, 227);
+    border: 1px solid rgb(255, 255, 255);
+}
+
+#todo-submit {
+    background-color: #5591e0;
+    border: double;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 13px;
+    box-shadow: #1B2430;
+    color: #1B2430;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#todo-submit:hover {
+    background-color: #4cd642;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button {
+    margin-top: 10px;
+}
+
+#todo-output {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li {
+    background: #396094;
+    margin-bottom: 10px;
+    border-style: groove;
+    height: 30px;
+    text-align: center;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 13px;
+}
